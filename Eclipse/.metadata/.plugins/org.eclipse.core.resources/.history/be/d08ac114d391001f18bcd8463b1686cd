@@ -1,0 +1,26 @@
+package davi.variaveis.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Quanto você ganha por hora? ");
+		int ganho = scan.nextInt();
+		
+		System.out.println("Quantas horas você trabalhou? ");
+		
+		double trabalhada = scan.nextDouble();
+		
+		double salarioBruto = ganho *trabalhada;
+		
+		System.out.println("Você vai receber no total: R$" + salarioBruto);
+		
+		
+	}
+
+}

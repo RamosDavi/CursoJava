@@ -1,0 +1,10 @@
+package davi.variaveis.cursojava.aula12;
+
+public class LeituraDadosTeclado2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

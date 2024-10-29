@@ -1,0 +1,19 @@
+package davi.variaveis.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		// Faça um programa que peça a temperatura em graus celsiun, transforme em graus farenheit
+		
+		
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Informe a temperatura em celsius: ");
+	double celsius = scan.nextDouble();
+	System.out.println("A temperatura em graus farenheit: " + (celsius/5)+32);
+	
+
+	}
+
+}
