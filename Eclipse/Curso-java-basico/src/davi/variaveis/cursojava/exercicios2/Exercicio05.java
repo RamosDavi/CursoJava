@@ -20,9 +20,16 @@ public class Exercicio05 {
 		double nota1 = scan.nextDouble();
 		
 		double media = (nota + nota1) /2;	
-		
-		
+				
 		System.out.println(media);
+		
+		if (media <= 6.9){
+			System.out.println("Reprovado");
+		} else if (media >= 7 && media <=9.9){
+			System.out.println("Aprovado");
+		} else if (media == 10) {
+			System.out.println("Aprovado com distinção");
+		}
 		
 
 	}
