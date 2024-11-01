@@ -5,28 +5,23 @@ import java.util.Scanner;
 public class Exercicio06 {
 
 	public static void main(String[] args) {
-		// Faça um programa que verifique se uma é letra é vogal ou consoante
+		// Faça um programa que leia 3 numeros e mostre o maior deles.
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Digite uma letra para verificação");
-		String letra = scan.next();
+		System.out.println("Digite três numeros: ");
 		
-		/*if(letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") || letra.equalsIgnoreCase("i") || letra.equalsIgnoreCase("o") 
-				|| letra.equalsIgnoreCase("u")) {
-			System.out.println("Vogal ");
-		} else {System.out.println("Consoante ");
-		}*/
+		double numero = scan.nextDouble();
+		double numero1 = scan.nextDouble();
+		double numero2 = scan.nextDouble();
 		
-		switch(letra){
-			case "a":
-			case "e":
-			case "i":
-			case "o":
-			case "u": System.out.print("Vogal"); break;
-			default: System.out.print("Consoante");
-
-		}
+		if(numero > numero1 && numero > numero2 ) {
+			System.out.println("Esse é o maior numero: "+ numero);			
+		} else if(numero1 > numero && numero1 > numero2) {
+			System.out.println("Esse é o maior numero: "+ numero1);
+		} else if(numero2> numero && numero2 > numero1) {
+			System.out.println("Esse é o maior numero: "+ numero2);
+		}		
 
 	}
 

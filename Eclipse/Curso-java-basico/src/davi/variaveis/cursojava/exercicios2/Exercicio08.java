@@ -5,29 +5,24 @@ import java.util.Scanner;
 public class Exercicio08 {
 
 	public static void main(String[] args) {
-		// Faça um programa que verifique se uma é letra é vogal ou consoante
+		/* Faça um programa que pergunte o preço de três produtos e informe qual
+		produto você de comprar, sabendo que a decisção é sempre pelo mais barato */
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Digite uma letra para verificação");
-		String letra = scan.next();
+		System.out.println("Informe o preço dos 3 produtos");
 		
-		/*if(letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") || letra.equalsIgnoreCase("i") || letra.equalsIgnoreCase("o") 
-				|| letra.equalsIgnoreCase("u")) {
-			System.out.println("Vogal ");
-		} else {System.out.println("Consoante ");
-		}*/
+		double valor = scan.nextDouble();
+		double valor1 = scan.nextDouble();
+		double valor2 = scan.nextDouble();
 		
-		switch(letra){
-			case "a":
-			case "e":
-			case "i":
-			case "o":
-			case "u": System.out.print("Vogal"); break;
-			default: System.out.print("Consoante");
-
+		if(valor < valor1 && valor < valor2 ) {
+			System.out.println("Esse é o produto mais barato: "+ valor);			
+		} else if(valor1 < valor && valor1 < valor2) {
+			System.out.println("Esse é o produto mais barato: "+ valor1);
+		} else if(valor2 < valor && valor2 < valor1) {
+			System.out.println("Esse é o produto mais barato: "+ valor2);
 		}
-
 	}
 
 }
