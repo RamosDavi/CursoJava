@@ -2,7 +2,7 @@ package davi.variaveis.cursojava.exercicios2;
 
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class Exercicio07 {
 
 	public static void main(String[] args) {
 		// Faça um programa que verifique se uma é letra é vogal ou consoante
