@@ -16,11 +16,11 @@ public class Exercicio08 {
 		double valor1 = scan.nextDouble();
 		double valor2 = scan.nextDouble();
 		
-		if(valor < valor1 && valor < valor2 ) {
+		if(valor <= valor1 && valor <= valor2 ) {
 			System.out.println("Esse é o produto mais barato: "+ valor);			
-		} else if(valor1 < valor && valor1 < valor2) {
+		} else if(valor1 <= valor && valor1 <= valor2) {
 			System.out.println("Esse é o produto mais barato: "+ valor1);
-		} else if(valor2 < valor && valor2 < valor1) {
+		} else if(valor2 <= valor && valor2 <= valor1) {
 			System.out.println("Esse é o produto mais barato: "+ valor2);
 		}
 	}
