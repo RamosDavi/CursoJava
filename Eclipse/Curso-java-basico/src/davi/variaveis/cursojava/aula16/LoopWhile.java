@@ -15,7 +15,7 @@ public class LoopWhile {
 			System.out.println("O valor de i é: " + i);
 			i++; // i = i +	1;
 		}
-		System.out.println("O valor fiinal de i é: " + i);
+		System.out.println("O valor final de i é: " + i);
 		
 		do {
 			i++;
