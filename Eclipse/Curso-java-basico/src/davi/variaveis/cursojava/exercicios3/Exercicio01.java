@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exercicio01 {
 
 	public static void main(String[] args) {
+		
+		/* Faça um programa que peça uma nota entre 0 e 10. Mostre uma mensagem caso o valor
+		 seja invalido e continue pedindo até que o usuario informe um valor valido */
 				
 		Scanner scan = new Scanner(System.in);		
 		
@@ -25,7 +28,6 @@ public class Exercicio01 {
 				System.out.println("Valor digitado é invalido, digite novamente. ");			}
 		
 		
-		} while (!notaValida);
-		 
+		} while (!notaValida);	 
 	}	
 }
