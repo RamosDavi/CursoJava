@@ -7,7 +7,7 @@ public class Exercicio06A {
 		depois modifique o programa para que ele mostre os numeros um ao lado do outro*/
 		
 		for (int i = 1; i <=20; i++) {
-		System.out.println(i + " - ");}
+		System.out.print(i + " - ");}
 
 	}
 
